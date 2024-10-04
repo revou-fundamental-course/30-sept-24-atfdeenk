@@ -1,4 +1,4 @@
-// ini file js
+// ini js
 function konversi() {
   alert('Konversi');
 }
