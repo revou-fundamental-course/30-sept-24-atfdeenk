@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Conversion</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Kalkulator Konversi Suhu</h1>
+      <hr>
+    </header>
+    <main>
+      <!-- Form Content -->
+      <section>
+        <!-- Instruksi -->
+        <article>
+          <p>
+            Masukan suhu derajat Celcius (&deg;C) ke kotak dibawah, lalu klik
+            tombol Konversi untuk mendapatkan hasil konversi dalam bentuk
+            Fahrenheit (&deg;F)
+          </p>
+        </article>
+
+        <!-- Inputan Suhu -->
+        <form action="">
+          <div>
+            <label for="input-suhu">Celcius (&deg;C):</label>
+          </div>
+          <textarea
+            name="input-suhu"
+            id="input-suhu"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <div>
+            <button class="form-btn form-btn-submit">Konversi</button>
+            <button class="form-btn form-btn-reset">Reset</button>
+            <button class="form-btn form-btn-revese">Reverse</button>
+          </div>
+        </form>
+
+        <!-- Hasil Inputan -->
+        <div>
+          <div>
+            <label for="hasil-suhu">Fahrenheit (&deg;F):</label>
+          </div>
+          <textarea
+            name="input-suhu"
+            id="input-suhu"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </div>
+
+        <!-- Cara Kalkulasi -->
+        <div>
+          <div>
+            <label for="formula-suhu">Cara Kalkulasi:</label>
+          </div>
+          <textarea
+            name="input-suhu"
+            id="input-suhu"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </div>
+      </section>
+      <!-- Info Content -->
+      <section>
+        <header>
+          <h2>Cara konversi Celcius ke Fahrenheit</h2>
+          <hr>
+        </header>
+        <article>
+          <p>
+            Suhu <span class="suhu-style">S</span> dalam derajat Fahrenheit
+            (&deg;F) sama dengan suhu <span class="suhu-style">S</span> dalam
+            derajat Celcius (&deg;C) kali 9/5 tambah 32.
+          </p>
+          <p>
+            <span class="suhu-style">S</span>(&deg;F) = (S(&deg;C) x 9/5) + 32
+          </p>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <p>Made by Athifuddin Khoir</p>
+    </footer>
+  </body>
+</html>
