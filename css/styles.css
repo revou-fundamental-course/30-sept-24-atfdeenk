@@ -1,6 +1,6 @@
 /* ini file css */
 body {
-  margin: 0;
+  margin: none;
   background: antiquewhite;
   display: flex;
   flex-direction: column;
@@ -17,8 +17,11 @@ body {
   border-radius: 6px;
 }
 .form-btn-submit {
+  background-color: white;
 }
 .form-btn-reset {
+  background-color: orange;
 }
 .form-btn-reverse {
+  background-color: darkgray;
 }
