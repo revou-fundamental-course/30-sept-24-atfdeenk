@@ -1,1 +1,4 @@
-// ini js
+// ini file js
+function(){
+    
+}
