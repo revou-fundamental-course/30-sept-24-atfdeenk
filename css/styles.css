@@ -3,8 +3,25 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   background-color: aquamarine;
 }
+
+button {
+  padding-inline: 10px;
+}
+button:hover {
+  background-color: deepskyblue;
+}
+
+textarea {
+  width: 210px;
+  height: 55px;
+  border-radius: 15px;
+  text-align: center;
+  padding-top: 10px;
+}
+
 .suhu {
   font-style: italic;
   font-weight: bold;
