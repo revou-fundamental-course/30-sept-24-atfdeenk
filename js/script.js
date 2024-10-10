@@ -1,10 +1,15 @@
 // ini file js
-function konversi() {
-  alert('Konversi');
+function celsiusFahrenheit(){
+  let input = document.getElementById("celsius").value;
+  let hasil = input * 9/5 + 32;
+  document.getElementById("fahrenheit").value = hasil;
+  document.getElementById("metode").innerHTML = document.getElementById("metode").innerHTML.replace("S", input)
+  document.getElementById("metode").innerHTML = document.getElementById("metode").innerHTML.replace("S", hasil)
 }
-function hapus() {
-  alert('Hapus');
-}
-function reverse() {
-  alert('Reverse');
+function fahrenheitCelsius(){
+  let input = document.getElementById("fahrenheit").value;
+  let hasil = (input - 32) * 5/9;
+  document.getElementById("celsius").value = hasil;
+  document.getElementById("metode").innerHTML = document.getElementById("metode").innerHTML.replace("S", input)
+  document.getElementById("metode").innerHTML = document.getElementById("metode").innerHTML.replace("S", hasil)
 }

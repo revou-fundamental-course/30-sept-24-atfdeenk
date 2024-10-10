@@ -1,28 +1,11 @@
-/* ini file css */
+/* ini css */
 body {
-  margin: none;
-  background: antiquewhite;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
+  background-color: aquamarine;
 }
-.suhu-style {
-  font-size: 20px;
-  font-family: math;
+.suhu {
   font-style: italic;
-}
-.form-btn {
-  border: none;
-  border-radius: 6px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.form-btn-submit {
-  background-color: white;
-}
-.form-btn-reset {
-  background-color: orange;
-}
-.form-btn-reverse {
-  background-color: darkgray;
+  font-weight: bold;
 }
